@@ -12,6 +12,7 @@
         { "name": "Build", "tools": ["XeTeX"] },
         {
             "name": "Build (bib)",
+            // XeTeX is run multiple times to resolve references and citations properly
             "tools": ["XeTeX", "BibTeX", "XeTeX", "XeTeX"]
         }
     ],
